@@ -2,3 +2,4 @@ venv/
 store/
 __pycache__/
 .env
+mock_hr.db
