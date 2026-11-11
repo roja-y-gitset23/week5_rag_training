@@ -1,0 +1,9 @@
+timestamp,question,route,tool,sources,time_ms
+2026-11-11T11:51:03,What is the carry forward policy for annual leave?,RAG,-,RAG: leave_policy.pdf p.2,0.57
+2026-11-11T11:51:03,What is the notice period for resignation?,RAG,-,RAG: hr_policy.pdf p.5,0.40
+2026-11-11T11:51:03,What is the work from home policy?,RAG,-,RAG: hr_policy.pdf p.7,0.35
+2026-11-11T11:51:03,What is the leave balance of employee 3?,SQL,get_leave_balance,"SQL: get_leave_balance() on tables leaves, employees",4.54
+2026-11-11T11:51:03,Show the payslip of employee 5 for 2026-09,SQL,get_payslip,"SQL: get_payslip() on tables payslips, employees",1.68
+2026-11-11T11:51:03,How many employees are in the Engineering department?,SQL,count_employees,SQL: count_employees() on tables employees,2.74
+2026-11-11T11:51:03,What is the sick leave policy and what is the leave balance of employee 2?,BOTH,get_leave_balance,"RAG: leave_policy.pdf p.3 | SQL: get_leave_balance() on tables leaves, employees",1.60
+2026-11-11T11:51:03,Explain the payslip deduction policy and show the payslip of employee 1 for 2026-09.,BOTH,get_payslip,"RAG: payroll_policy.pdf p.1 | SQL: get_payslip() on tables payslips, employees",1.14
