@@ -1,0 +1,11 @@
+# Retrieval configuration (edit values here, never in code)
+use_bm25: true        # keyword search
+use_vector: true      # embedding search
+use_reranker: true    # cross-encoder rerank of the candidates
+top_k: 5              # chunks kept at the end
+candidate_k: 20       # candidates fetched before reranking
+chunk_size: 25        # words per chunk
+chunk_overlap: 5     # words shared between neighbouring chunks
+
+embedding_model: all-MiniLM-L6-v2
+reranker_model: cross-encoder/ms-marco-MiniLM-L-6-v2
