@@ -1,0 +1,38 @@
+import json
+
+chunks = [
+    {"id": "c1",  "text": "Policy HR-204: Employees are entitled to 18 days of paid annual leave per calendar year. Unused leave up to 5 days can be carried forward."},
+    {"id": "c2",  "text": "Policy HR-310: Remote work requires written approval from the line manager. Employees may work from home up to 2 days a week."},
+    {"id": "c3",  "text": "Policy IT-501: Laptops must be encrypted and passwords changed every 90 days. Report lost devices to the IT helpdesk within 24 hours."},
+    {"id": "c4",  "text": "Policy FIN-112: Travel expenses above 5000 INR require pre-approval. Submit receipts within 15 days of the trip."},
+    {"id": "c5",  "text": "Code of Conduct CC-007: Harassment of any kind is prohibited. Complaints are handled by the Ethics Committee led by Ms. Priya Nair."},
+    {"id": "c6",  "text": "Maternity benefit MB-90: Female employees get 26 weeks of paid maternity leave. Paternity leave is 10 days."},
+    {"id": "c7",  "text": "Sick leave: Employees can take 12 days of sick leave per year. A medical certificate is needed for absences longer than 2 days."},
+    {"id": "c8",  "text": "Payroll: Salaries are credited on the last working day of each month. Payslips are available on the employee portal."},
+    {"id": "c9",  "text": "Onboarding: New hires receive a laptop, ID card and access badge on day one. Orientation is conducted by Mr. Rahul Verma, Head of Talent."},
+    {"id": "c10", "text": "Security SEC-880: Visitors must sign in at reception and wear a visitor badge at all times inside the office."},
+    {"id": "c11", "text": "Performance review: Appraisals happen twice a year, in June and December. Ratings influence bonus and promotion decisions."},
+    {"id": "c12", "text": "Learning budget LD-45: Each employee can claim up to 20000 INR per year for approved courses and certifications."},
+    # ---- distractors ----
+    {"id": "d1",  "text": "Policy HR-201: Employees must complete mandatory safety training within 30 days of joining."},
+    {"id": "d2",  "text": "Policy HR-202: Employees must submit timesheets every Friday through the HR portal."},
+    {"id": "d3",  "text": "Policy HR-203: Employees must update their emergency contact details every year."},
+    {"id": "d4",  "text": "Policy HR-205: Employees must complete the data privacy course within 60 days of joining."},
+    {"id": "d5",  "text": "Policy HR-206: Employees must acknowledge the code of conduct every January."},
+    {"id": "d6",  "text": "Policy FIN-111: Client entertainment expenses above 3000 INR require pre-approval. Submit receipts within 10 days."},
+    {"id": "d7",  "text": "Policy FIN-113: Mobile bills above 1500 INR require pre-approval. Submit bills within 20 days."},
+    {"id": "d8",  "text": "Policy FIN-121: Training expenses above 8000 INR require pre-approval. Submit invoices within 30 days."},
+    {"id": "d9",  "text": "Security SEC-881: Contractors must sign in at reception and wear a contractor badge at all times inside the office."},
+    {"id": "d10", "text": "Security SEC-870: Delivery staff must sign in at the gate and wear a delivery pass at all times inside the campus."},
+    {"id": "d11", "text": "Security SEC-808: Vendors must sign in at the front desk and wear a vendor tag at all times inside the building."},
+    {"id": "d12", "text": "Learning budget LD-44: Each employee can claim up to 15000 INR per year for approved books and workshops."},
+    {"id": "d13", "text": "Learning budget LD-46: Each employee can claim up to 25000 INR per year for approved conferences and seminars."},
+    {"id": "d14", "text": "Learning budget LD-54: Each manager can claim up to 30000 INR per year for approved leadership programs."},
+    {"id": "d15", "text": "Code of Conduct CC-008: Conflicts of interest are reviewed by the Audit Committee led by Ms. Priya Nayak."},
+    {"id": "d16", "text": "Facilities FC-021: Cafeteria and parking issues are handled by Ms. Preeti Nair, Head of Facilities."},
+]
+
+with open("chunks.json", "w", encoding="utf-8") as f:
+    json.dump(chunks, f, indent=2, ensure_ascii=False)
+
+print(f"chunks.json written with {len(chunks)} chunks")
