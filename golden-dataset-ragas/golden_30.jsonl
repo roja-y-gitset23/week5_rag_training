@@ -1,0 +1,30 @@
+{"question": "How many days of paid annual leave do full-time employees receive per calendar year?", "ground_truth": "20 days", "source": "hr_policy.pdf", "page": 1}
+{"question": "How long is the standard probation period for new hires?", "ground_truth": "90 days", "source": "hr_policy.pdf", "page": 1}
+{"question": "How many days per week may employees work remotely with manager approval?", "ground_truth": "Up to 3 days per week", "source": "hr_policy.pdf", "page": 2}
+{"question": "When are performance reviews held?", "ground_truth": "Twice a year, in June and December", "source": "hr_policy.pdf", "page": 3}
+{"question": "What is the minimum password length?", "ground_truth": "14 characters", "source": "it_security_policy.pdf", "page": 1}
+{"question": "What is mandatory for all VPN access?", "ground_truth": "Multi-factor authentication", "source": "it_security_policy.pdf", "page": 2}
+{"question": "What disk protection must company laptops use?", "ground_truth": "Full-disk encryption (BitLocker or FileVault)", "source": "it_security_policy.pdf", "page": 2}
+{"question": "Within what time must security incidents be reported to the helpdesk?", "ground_truth": "Within 2 hours", "source": "it_security_policy.pdf", "page": 3}
+{"question": "What is the daily reimbursement limit for meals during business travel?", "ground_truth": "$60 per day", "source": "expense_policy.pdf", "page": 1}
+{"question": "What approval is needed for a single expense above $500?", "ground_truth": "Prior written approval from a director", "source": "expense_policy.pdf", "page": 2}
+{"question": "Which flight class is required for flights shorter than 6 hours?", "ground_truth": "Economy class", "source": "expense_policy.pdf", "page": 2}
+{"question": "How soon are approved reimbursements paid?", "ground_truth": "Within 10 business days", "source": "expense_policy.pdf", "page": 3}
+{"question": "What is the price of the Laptop Pro?", "ground_truth": "1200", "source": "products.csv", "page": null}
+{"question": "How many units of the Wireless Mouse are in stock?", "ground_truth": "150", "source": "products.csv", "page": null}
+{"question": "Which product is out of stock?", "ground_truth": "Webcam HD", "source": "products.csv", "page": null}
+{"question": "How many products are in the Furniture category?", "ground_truth": "3", "source": "products.csv", "page": null}
+{"question": "Which product has the highest price?", "ground_truth": "Laptop Pro", "source": "products.csv", "page": null}
+{"question": "What is the average price of products in the Accessories category?", "ground_truth": "70", "source": "products.csv", "page": null}
+{"question": "What is the total stock of all Electronics products?", "ground_truth": "55", "source": "products.csv", "page": null}
+{"question": "How many employees are there in total?", "ground_truth": "8", "source": "mock_db.sqlite:employees", "page": null}
+{"question": "How many employees are in the Engineering department?", "ground_truth": "3", "source": "mock_db.sqlite:employees", "page": null}
+{"question": "What is Asha Rao's leave balance in days?", "ground_truth": "12", "source": "mock_db.sqlite:employees", "page": null}
+{"question": "Which employee has the highest salary?", "ground_truth": "Omar Khan", "source": "mock_db.sqlite:employees", "page": null}
+{"question": "What is the average salary in the Sales department?", "ground_truth": "71000", "source": "mock_db.sqlite:employees", "page": null}
+{"question": "Which employees were hired in 2022 or later?", "ground_truth": "Lina Das, Priya Nair", "source": "mock_db.sqlite:employees", "page": null}
+{"question": "What is the company policy on sabbatical leave?", "ground_truth": "I don't know", "source": "hr_policy.pdf", "page": null}
+{"question": "Which firewall vendor does the company use?", "ground_truth": "I don't know", "source": "it_security_policy.pdf", "page": null}
+{"question": "What is the maximum nightly hotel rate reimbursed for travel?", "ground_truth": "I don't know", "source": "expense_policy.pdf", "page": null}
+{"question": "Who is the supplier of the Laptop Pro?", "ground_truth": "I don't know", "source": "products.csv", "page": null}
+{"question": "What is the home address of Asha Rao?", "ground_truth": "I don't know", "source": "mock_db.sqlite:employees", "page": null}
