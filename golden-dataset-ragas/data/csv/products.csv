@@ -1,0 +1,11 @@
+product_id,name,category,price,stock
+P001,Laptop Pro,Electronics,1200,15
+P002,Wireless Mouse,Accessories,25,150
+P003,Mechanical Keyboard,Accessories,80,60
+P004,27in Monitor,Electronics,300,40
+P005,USB-C Hub,Accessories,45,90
+P006,Webcam HD,Electronics,70,0
+P007,Standing Desk,Furniture,450,12
+P008,Office Chair,Furniture,220,25
+P009,Noise Headset,Accessories,130,35
+P010,Desk Lamp,Furniture,35,80
