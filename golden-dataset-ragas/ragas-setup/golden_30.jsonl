@@ -1,0 +1,30 @@
+{"question": "How many paid annual leave days do employees get per year?", "ground_truth": "Employees receive 24 paid annual leave days per year.", "source": "pdf", "page": 1}
+{"question": "Which product was ordered in order ORD-1003?", "ground_truth": "Keyboard", "source": "csv", "page": null}
+{"question": "What is the salary of Priya Sharma?", "ground_truth": "95000 INR", "source": "sql", "page": null}
+{"question": "When is a medical certificate required for sick leave?", "ground_truth": "A medical certificate is required after 3 consecutive days of sick leave.", "source": "pdf", "page": 1}
+{"question": "How many units were in order ORD-1005?", "ground_truth": "3", "source": "csv", "page": null}
+{"question": "Which department does Vikram Singh work in?", "ground_truth": "Finance", "source": "sql", "page": null}
+{"question": "How long is maternity leave?", "ground_truth": "Maternity leave is 26 weeks of paid leave.", "source": "pdf", "page": 1}
+{"question": "Which region placed order ORD-1007?", "ground_truth": "West", "source": "csv", "page": null}
+{"question": "In which city does Meera Nair work?", "ground_truth": "Kochi", "source": "sql", "page": null}
+{"question": "How many unused annual leave days can be carried forward?", "ground_truth": "A maximum of 10 unused annual leave days can be carried forward.", "source": "pdf", "page": 1}
+{"question": "What was the unit price in order ORD-1002?", "ground_truth": "12000 INR", "source": "csv", "page": null}
+{"question": "Who has employee ID E107?", "ground_truth": "Sana Khan", "source": "sql", "page": null}
+{"question": "What are the core working hours?", "ground_truth": "Core working hours are 10:00 to 16:00, Monday to Friday.", "source": "pdf", "page": 2}
+{"question": "In which month was order ORD-1009 placed?", "ground_truth": "May", "source": "csv", "page": null}
+{"question": "What is the salary of Karan Mehta?", "ground_truth": "66000 INR", "source": "sql", "page": null}
+{"question": "How many days per week can employees work remotely?", "ground_truth": "Remote work is allowed up to 2 days per week with manager approval.", "source": "pdf", "page": 2}
+{"question": "Who is the customer for order ORD-1004?", "ground_truth": "Neha Gupta", "source": "csv", "page": null}
+{"question": "Which department does Anita Desai work in?", "ground_truth": "HR", "source": "sql", "page": null}
+{"question": "At what rate is overtime paid?", "ground_truth": "Overtime is paid at 1.5 times the normal hourly rate.", "source": "pdf", "page": 2}
+{"question": "What was the total profit margin in the first quarter?", "ground_truth": "I don't know", "source": "csv", "page": null}
+{"question": "What is the joining date of Rahul Verma?", "ground_truth": "I don't know", "source": "sql", "page": null}
+{"question": "What is the home office stipend amount?", "ground_truth": "The one-time home office stipend is 15000 INR.", "source": "pdf", "page": 2}
+{"question": "Which salesperson closed the most orders?", "ground_truth": "I don't know", "source": "csv", "page": null}
+{"question": "What is the meal allowance during business travel?", "ground_truth": "The meal allowance during business travel is 1200 INR per day.", "source": "pdf", "page": 3}
+{"question": "Within how many days must expense claims be submitted?", "ground_truth": "Expense claims must be submitted within 30 days of the expense date.", "source": "pdf", "page": 3}
+{"question": "Above what amount are receipts required for expense claims?", "ground_truth": "Receipts are required for expense claims above 500 INR.", "source": "pdf", "page": 3}
+{"question": "How often must passwords be changed?", "ground_truth": "Passwords must be changed every 90 days.", "source": "pdf", "page": 4}
+{"question": "Within how many hours must security incidents be reported?", "ground_truth": "Security incidents must be reported within 24 hours.", "source": "pdf", "page": 4}
+{"question": "What is the company policy on paternity leave duration?", "ground_truth": "I don't know", "source": "pdf", "page": null}
+{"question": "What is the dress code on Fridays?", "ground_truth": "I don't know", "source": "pdf", "page": null}
