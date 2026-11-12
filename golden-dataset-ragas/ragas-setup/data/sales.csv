@@ -1,0 +1,11 @@
+order_id,customer,region,product,units,unit_price,month
+ORD-1001,Ravi Kumar,North,Laptop,5,55000,January
+ORD-1002,Sunita Rao,South,Monitor,10,12000,January
+ORD-1003,Amit Shah,West,Keyboard,25,1500,February
+ORD-1004,Neha Gupta,East,Mouse,40,600,February
+ORD-1005,Farhan Ali,North,Laptop,3,55000,March
+ORD-1006,Divya Menon,South,Printer,6,9500,March
+ORD-1007,Rohit Jain,West,Monitor,8,12000,April
+ORD-1008,Pooja Iyer,East,Keyboard,30,1500,April
+ORD-1009,Sameer Pathan,North,Mouse,50,600,May
+ORD-1010,Lakshmi Devi,South,Laptop,4,55000,May
