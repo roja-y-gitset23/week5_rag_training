@@ -1,0 +1,302 @@
+[
+  {
+    "question": "How many paid annual leave days do employees get per year?",
+    "answer": "Employees receive 24 paid annual leave days per year.",
+    "contexts": [
+      "Employees receive 24 paid annual leave days per year.",
+      "A maximum of 10 unused annual leave days can be carried forward to the next year.",
+      "Sick leave is 12 days per year; a medical certificate is required after 3 consecutive days."
+    ],
+    "ground_truth": "Employees receive 24 paid annual leave days per year."
+  },
+  {
+    "question": "Which product was ordered in order ORD-1003?",
+    "answer": "Keyboard was ordered in order ORD-1003.",
+    "contexts": [
+      "Order ORD-1003: customer=Amit Shah, region=West, product=Keyboard, units=25, unit_price=1500 INR, month=February",
+      "Order ORD-1008: customer=Pooja Iyer, region=East, product=Keyboard, units=30, unit_price=1500 INR, month=April",
+      "Order ORD-1006: customer=Divya Menon, region=South, product=Printer, units=6, unit_price=9500 INR, month=March"
+    ],
+    "ground_truth": "Keyboard"
+  },
+  {
+    "question": "What is the salary of Priya Sharma?",
+    "answer": "The salary of Priya Sharma is 95000 INR.",
+    "contexts": [
+      "Employee E101: name=Priya Sharma, department=Engineering, salary=95000 INR, city=Bengaluru",
+      "Employee E103: name=Anita Desai, department=HR, salary=62000 INR, city=Mumbai",
+      "Employee E105: name=Meera Nair, department=Marketing, salary=68000 INR, city=Kochi"
+    ],
+    "ground_truth": "95000 INR"
+  },
+  {
+    "question": "When is a medical certificate required for sick leave?",
+    "answer": "A medical certificate is required after 3 consecutive days of sick leave.",
+    "contexts": [
+      "Sick leave is 12 days per year; a medical certificate is required after 3 consecutive days.",
+      "Receipts are required for all expense claims above 500 INR.",
+      "Maternity leave is 26 weeks of paid leave."
+    ],
+    "ground_truth": "A medical certificate is required after 3 consecutive days of sick leave."
+  },
+  {
+    "question": "How many units were in order ORD-1005?",
+    "answer": "There were 3 units in order ORD-1005.",
+    "contexts": [
+      "Order ORD-1005: customer=Farhan Ali, region=North, product=Laptop, units=3, unit_price=55000 INR, month=March",
+      "Order ORD-1004: customer=Neha Gupta, region=East, product=Mouse, units=40, unit_price=600 INR, month=February",
+      "Order ORD-1009: customer=Sameer Pathan, region=North, product=Mouse, units=50, unit_price=600 INR, month=May"
+    ],
+    "ground_truth": "3"
+  },
+  {
+    "question": "Which department does Vikram Singh work in?",
+    "answer": "Vikram Singh works in the Finance department.",
+    "contexts": [
+      "Employee E104: name=Vikram Singh, department=Finance, salary=74000 INR, city=Delhi",
+      "Employee E105: name=Meera Nair, department=Marketing, salary=68000 INR, city=Kochi",
+      "Employee E107: name=Sana Khan, department=Engineering, salary=99000 INR, city=Pune"
+    ],
+    "ground_truth": "Finance"
+  },
+  {
+    "question": "How long is maternity leave?",
+    "answer": "Maternity leave is 26 weeks of paid leave.",
+    "contexts": [
+      "Maternity leave is 26 weeks of paid leave.",
+      "Sick leave is 12 days per year; a medical certificate is required after 3 consecutive days.",
+      "Employees receive 24 paid annual leave days per year."
+    ],
+    "ground_truth": "Maternity leave is 26 weeks of paid leave."
+  },
+  {
+    "question": "Which region placed order ORD-1007?",
+    "answer": "Order ORD-1007 was placed in the West region.",
+    "contexts": [
+      "Order ORD-1007: customer=Rohit Jain, region=West, product=Monitor, units=8, unit_price=12000 INR, month=April",
+      "Order ORD-1008: customer=Pooja Iyer, region=East, product=Keyboard, units=30, unit_price=1500 INR, month=April",
+      "Order ORD-1006: customer=Divya Menon, region=South, product=Printer, units=6, unit_price=9500 INR, month=March"
+    ],
+    "ground_truth": "West"
+  },
+  {
+    "question": "In which city does Meera Nair work?",
+    "answer": "Meera Nair works in Kochi.",
+    "contexts": [
+      "Employee E105: name=Meera Nair, department=Marketing, salary=68000 INR, city=Kochi",
+      "A one-time home office stipend of 15000 INR is provided to remote employees.",
+      "Core working hours are 10:00 to 16:00, Monday to Friday."
+    ],
+    "ground_truth": "Kochi"
+  },
+  {
+    "question": "How many unused annual leave days can be carried forward?",
+    "answer": "A maximum of 10 unused annual leave days can be carried forward to the next year.",
+    "contexts": [
+      "A maximum of 10 unused annual leave days can be carried forward to the next year.",
+      "Employees receive 24 paid annual leave days per year.",
+      "Sick leave is 12 days per year; a medical certificate is required after 3 consecutive days."
+    ],
+    "ground_truth": "A maximum of 10 unused annual leave days can be carried forward."
+  },
+  {
+    "question": "What was the unit price in order ORD-1002?",
+    "answer": "The unit price in order ORD-1002 was 12000 INR.",
+    "contexts": [
+      "Order ORD-1002: customer=Sunita Rao, region=South, product=Monitor, units=10, unit_price=12000 INR, month=January",
+      "Order ORD-1008: customer=Pooja Iyer, region=East, product=Keyboard, units=30, unit_price=1500 INR, month=April",
+      "Order ORD-1003: customer=Amit Shah, region=West, product=Keyboard, units=25, unit_price=1500 INR, month=February"
+    ],
+    "ground_truth": "12000 INR"
+  },
+  {
+    "question": "Who has employee ID E107?",
+    "answer": "Sana Khan has employee ID E107.",
+    "contexts": [
+      "Employee E107: name=Sana Khan, department=Engineering, salary=99000 INR, city=Pune",
+      "Employee E108: name=Karan Mehta, department=Sales, salary=66000 INR, city=Ahmedabad",
+      "Employee E105: name=Meera Nair, department=Marketing, salary=68000 INR, city=Kochi"
+    ],
+    "ground_truth": "Sana Khan"
+  },
+  {
+    "question": "What are the core working hours?",
+    "answer": "Core working hours are 10:00 to 16:00, Monday to Friday.",
+    "contexts": [
+      "Core working hours are 10:00 to 16:00, Monday to Friday.",
+      "Remote work is allowed up to 2 days per week with manager approval.",
+      "Overtime is paid at 1.5 times the normal hourly rate."
+    ],
+    "ground_truth": "Core working hours are 10:00 to 16:00, Monday to Friday."
+  },
+  {
+    "question": "In which month was order ORD-1009 placed?",
+    "answer": "Order ORD-1009 was placed in May.",
+    "contexts": [
+      "Order ORD-1009: customer=Sameer Pathan, region=North, product=Mouse, units=50, unit_price=600 INR, month=May",
+      "Order ORD-1004: customer=Neha Gupta, region=East, product=Mouse, units=40, unit_price=600 INR, month=February",
+      "Order ORD-1007: customer=Rohit Jain, region=West, product=Monitor, units=8, unit_price=12000 INR, month=April"
+    ],
+    "ground_truth": "May"
+  },
+  {
+    "question": "What is the salary of Karan Mehta?",
+    "answer": "The salary of Karan Mehta is 66000 INR.",
+    "contexts": [
+      "Employee E108: name=Karan Mehta, department=Sales, salary=66000 INR, city=Ahmedabad",
+      "The meal allowance during business travel is 1200 INR per day.",
+      "Employee E105: name=Meera Nair, department=Marketing, salary=68000 INR, city=Kochi"
+    ],
+    "ground_truth": "66000 INR"
+  },
+  {
+    "question": "How many days per week can employees work remotely?",
+    "answer": "Employees are allowed to work remotely up to 2 days per week with manager approval.",
+    "contexts": [
+      "Remote work is allowed up to 2 days per week with manager approval.",
+      "Core working hours are 10:00 to 16:00, Monday to Friday.",
+      "A one-time home office stipend of 15000 INR is provided to remote employees."
+    ],
+    "ground_truth": "Remote work is allowed up to 2 days per week with manager approval."
+  },
+  {
+    "question": "Who is the customer for order ORD-1004?",
+    "answer": "The customer for order ORD-1004 is Neha Gupta.",
+    "contexts": [
+      "Order ORD-1004: customer=Neha Gupta, region=East, product=Mouse, units=40, unit_price=600 INR, month=February",
+      "Order ORD-1008: customer=Pooja Iyer, region=East, product=Keyboard, units=30, unit_price=1500 INR, month=April",
+      "Order ORD-1003: customer=Amit Shah, region=West, product=Keyboard, units=25, unit_price=1500 INR, month=February"
+    ],
+    "ground_truth": "Neha Gupta"
+  },
+  {
+    "question": "Which department does Anita Desai work in?",
+    "answer": "Anita Desai works in the HR department.",
+    "contexts": [
+      "Employee E103: name=Anita Desai, department=HR, salary=62000 INR, city=Mumbai",
+      "Employee E105: name=Meera Nair, department=Marketing, salary=68000 INR, city=Kochi",
+      "Employee E101: name=Priya Sharma, department=Engineering, salary=95000 INR, city=Bengaluru"
+    ],
+    "ground_truth": "HR"
+  },
+  {
+    "question": "At what rate is overtime paid?",
+    "answer": "Overtime is paid at 1.5 times the normal hourly rate.",
+    "contexts": [
+      "Overtime is paid at 1.5 times the normal hourly rate.",
+      "Core working hours are 10:00 to 16:00, Monday to Friday.",
+      "Employees receive 24 paid annual leave days per year."
+    ],
+    "ground_truth": "Overtime is paid at 1.5 times the normal hourly rate."
+  },
+  {
+    "question": "What was the total profit margin in the first quarter?",
+    "answer": "I don't know",
+    "contexts": [
+      "Overtime is paid at 1.5 times the normal hourly rate.",
+      "Order ORD-1006: customer=Divya Menon, region=South, product=Printer, units=6, unit_price=9500 INR, month=March",
+      "Order ORD-1003: customer=Amit Shah, region=West, product=Keyboard, units=25, unit_price=1500 INR, month=February"
+    ],
+    "ground_truth": "I don't know"
+  },
+  {
+    "question": "What is the joining date of Rahul Verma?",
+    "answer": "I don't know",
+    "contexts": [
+      "Employee E102: name=Rahul Verma, department=Engineering, salary=88000 INR, city=Hyderabad",
+      "The probation period for new employees is 6 months.",
+      "A one-time home office stipend of 15000 INR is provided to remote employees."
+    ],
+    "ground_truth": "I don't know"
+  },
+  {
+    "question": "What is the home office stipend amount?",
+    "answer": "The home office stipend amount is 15000 INR.",
+    "contexts": [
+      "A one-time home office stipend of 15000 INR is provided to remote employees.",
+      "Remote work is allowed up to 2 days per week with manager approval.",
+      "The meal allowance during business travel is 1200 INR per day."
+    ],
+    "ground_truth": "The one-time home office stipend is 15000 INR."
+  },
+  {
+    "question": "Which salesperson closed the most orders?",
+    "answer": "I don't know",
+    "contexts": [
+      "Order ORD-1004: customer=Neha Gupta, region=East, product=Mouse, units=40, unit_price=600 INR, month=February",
+      "Order ORD-1009: customer=Sameer Pathan, region=North, product=Mouse, units=50, unit_price=600 INR, month=May",
+      "Order ORD-1003: customer=Amit Shah, region=West, product=Keyboard, units=25, unit_price=1500 INR, month=February"
+    ],
+    "ground_truth": "I don't know"
+  },
+  {
+    "question": "What is the meal allowance during business travel?",
+    "answer": "The meal allowance during business travel is 1200 INR per day.",
+    "contexts": [
+      "The meal allowance during business travel is 1200 INR per day.",
+      "Receipts are required for all expense claims above 500 INR.",
+      "Expense claims must be submitted within 30 days of the expense date."
+    ],
+    "ground_truth": "The meal allowance during business travel is 1200 INR per day."
+  },
+  {
+    "question": "Within how many days must expense claims be submitted?",
+    "answer": "Expense claims must be submitted within 30 days of the expense date.",
+    "contexts": [
+      "Expense claims must be submitted within 30 days of the expense date.",
+      "Receipts are required for all expense claims above 500 INR.",
+      "The meal allowance during business travel is 1200 INR per day."
+    ],
+    "ground_truth": "Expense claims must be submitted within 30 days of the expense date."
+  },
+  {
+    "question": "Above what amount are receipts required for expense claims?",
+    "answer": "Receipts are required for all expense claims above 500 INR.",
+    "contexts": [
+      "Receipts are required for all expense claims above 500 INR.",
+      "Expense claims must be submitted within 30 days of the expense date.",
+      "The meal allowance during business travel is 1200 INR per day."
+    ],
+    "ground_truth": "Receipts are required for expense claims above 500 INR."
+  },
+  {
+    "question": "How often must passwords be changed?",
+    "answer": "Passwords must be changed every 90 days.",
+    "contexts": [
+      "Passwords must be changed every 90 days.",
+      "All company laptops must use full-disk encryption.",
+      "Security incidents must be reported to security@acme.example within 24 hours."
+    ],
+    "ground_truth": "Passwords must be changed every 90 days."
+  },
+  {
+    "question": "Within how many hours must security incidents be reported?",
+    "answer": "Security incidents must be reported within 24 hours.",
+    "contexts": [
+      "Security incidents must be reported to security@acme.example within 24 hours.",
+      "Passwords must be changed every 90 days.",
+      "Expense claims must be submitted within 30 days of the expense date."
+    ],
+    "ground_truth": "Security incidents must be reported within 24 hours."
+  },
+  {
+    "question": "What is the company policy on paternity leave duration?",
+    "answer": "I don't know",
+    "contexts": [
+      "Maternity leave is 26 weeks of paid leave.",
+      "Employees receive 24 paid annual leave days per year.",
+      "The probation period for new employees is 6 months."
+    ],
+    "ground_truth": "I don't know"
+  },
+  {
+    "question": "What is the dress code on Fridays?",
+    "answer": "I don't know",
+    "contexts": [
+      "Core working hours are 10:00 to 16:00, Monday to Friday.",
+      "Remote work is allowed up to 2 days per week with manager approval.",
+      "Overtime is paid at 1.5 times the normal hourly rate."
+    ],
+    "ground_truth": "I don't know"
+  }
+]
